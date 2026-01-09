@@ -13,3 +13,8 @@ footer {
 footer p {
     height: calc(150px - 40px);
 }
+
+main {
+    background-color: #aaaa;
+    color: black;
+}
