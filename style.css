@@ -21,3 +21,13 @@ main {
     background-color: #aaaa;
     color: black;
 }
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+}
