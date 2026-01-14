@@ -1,0 +1,33 @@
+header {
+    height: 100px;
+    padding: 10px;
+    background-color: #3939c8;
+    color: white;
+}
+
+footer {
+    height: 150px;
+    padding: 20px;
+    background-color: #193968;
+    color: white;
+    border-top: 1px solid white;
+}
+
+footer p {
+    height: calc(150px - 40px);
+}
+
+main {
+    background-color: #aaaa;
+    color: black;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+}
